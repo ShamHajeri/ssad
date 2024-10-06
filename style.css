@@ -1,0 +1,71 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(248, 239, 223);
+
+}
+.form_container{
+    width:100%;
+    height: auto; 
+    padding: 25px 5px 25px 5px;
+    text-align: center;
+    display:flex;
+}
+.form_img{
+    width: 60%;
+    padding: 0px 25px 0px 25px;
+    
+    
+}
+.form_container img{
+    max-width: 400px;
+    
+}
+
+.form_container_input{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px 15px 5px 15px;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 5px;
+    border: 1px rgb(0, 0, 0);
+
+}
+.form_container h5{
+    color: green;
+
+}
+
+.button{
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    cursor: pointer;
+    color: white;
+    margin: 0px 15px 0px 15px;
+    padding: 10px 25px 10px 25px;
+    background-color: green;
+    border-radius: 5px;
+
+}
+.switch_button{
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    padding: 25px 25px 25px 25px ;
+    display: flex;
+}
+#login{
+    display: none;
+}
+#message{
+    color: red;
+}
+@media screen and (max-width:600px) {
+
+    .form_container{
+      display: inline;
+}
+}

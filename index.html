@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>E-Learning</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+<body>
+
+
+    <div>
+        <div class="form_container">
+          
+            <div style="margin: auto;">
+                <div class="switch_button">
+                    <div class="button" onclick="select_login()">Login</div> or<div class="button" onclick="select_sign_up()">Sign Up</div>
+                </div>
+                <div id="sign_up">
+
+                    <form>
+                        <input class="form_container_input" type="text" placeholder="User Name" id="user_name"> 
+                        <input class="form_container_input"  type="email" placeholder="Email" id="s_email"> 
+                        <input class="form_container_input"  type="password" placeholder="Create Password" id="s_password"> 
+                        <input class="form_container_input"  type="password" placeholder="Re-type Password " id="correct_password"> <br>
+                    </form>
+                    <button  class="button" onclick="sign_form()"> Sign Up </button>
+                  
+                </div>
+                <div id="login">
+                    <form>
+                        <input class="form_container_input"  type="email" placeholder="Email" id="email"> 
+                        <input  class="form_container_input"  type="password" placeholder="Password" id="password"> <br>
+                    </form>
+                    <button  class="button" onclick="authentication()"> Login </button>
+                    
+                </div>
+                <div id="message"></div>
+            </div>
+        </div>   
+    </div>
+
+    
+</body>
+</html>
